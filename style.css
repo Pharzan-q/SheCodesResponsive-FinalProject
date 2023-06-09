@@ -25,26 +25,34 @@ font-family: 'Yuji Syuku', serif;*/
 body {
   font-family: "Montserrat Alternates", sans-serif;
   background-color: #3865dc;
+  overflow-x: hidden;
+}
+.hero {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(85, 56, 73, 0.503),
+    rgba(156, 151, 154, 0.552)
+  );
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  object-position: 50% 78%;
+  z-index: -1;
 }
 
-.hero {
-  margin-top: 55px;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(
-      2deg,
-      rgba(58, 105, 147, 0.484),
-      rgba(246, 202, 126, 0.739)
-    ),
-    url("/media/maxim-berg-2-3-unsplash.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .hero h1 {
   position: relative;
   top: 40vh;
-  font-size: 76px;
+  font-size: 84px;
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Jura", sans-serif;
@@ -62,11 +70,6 @@ body {
 }
 
 .work-cover {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(
-    2deg,
-    rgba(246, 202, 126, 0.739),
-    rgba(58, 105, 147, 0.484)
-  );
+  background-color: #3864dc5b;
+  width: 100vw;
 }
