@@ -16,10 +16,15 @@ font-family: 'Yuji Syuku', serif;*/
       0deg,
       rgba(85, 56, 73, 0.357),
       rgba(210, 202, 208, 0.552)
-    ),*/
+    ),
+    
+      2deg,
+      rgba(58, 105, 147, 0.484),
+      rgba(246, 202, 126, 0.739)*/
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
+  background-color: #3865dc;
 }
 
 .hero {
@@ -28,30 +33,40 @@ body {
   height: 100vh;
   background-image: linear-gradient(
       2deg,
-      rgba(140, 95, 180, 0.358),
-      rgba(186, 176, 111, 0.7)
+      rgba(58, 105, 147, 0.484),
+      rgba(246, 202, 126, 0.739)
     ),
-    url("/media/maxim-berg-2-1-unsplash.png");
+    url("/media/maxim-berg-2-3-unsplash.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .hero h1 {
   position: relative;
-  top: 47vh;
-  font-size: 82px;
+  top: 40vh;
+  font-size: 76px;
   text-align: center;
-  color: rgb(237, 237, 237);
-  font-family: "jura", cursive;
+  color: rgb(255, 255, 255);
+  font-family: "Jura", sans-serif;
   font-weight: 900;
 }
 .hero h3 {
   position: relative;
   text-align: center;
-  top: 47vh;
+  top: 40vh;
   font-family: "Gruppo", sans-serif;
   font-weight: 400;
   opacity: 1;
-  color: rgb(247, 242, 242);
+  color: rgb(255, 255, 255);
   font-size: 25px;
+}
+
+.work-cover {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    2deg,
+    rgba(246, 202, 126, 0.739),
+    rgba(58, 105, 147, 0.484)
+  );
 }
