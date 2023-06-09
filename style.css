@@ -52,7 +52,7 @@ body {
 
 .hero h1 {
   position: relative;
-  top: 34vh;
+  top: 35vh;
   font-size: 78px;
   text-align: center;
   color: rgb(222, 212, 212);
@@ -62,7 +62,7 @@ body {
 .hero h3 {
   position: relative;
   text-align: center;
-  top: 35vh;
+  top: 36vh;
   font-family: "Gruppo", sans-serif;
   font-weight: 400;
   opacity: 1;
