@@ -55,7 +55,7 @@ body {
   top: 36vh;
   font-size: 90px;
   text-align: center;
-  color: rgb(201, 192, 192);
+  color: rgb(211, 203, 203);
   font-family: "Jura", sans-serif;
   font-weight: 900;
 }
@@ -64,9 +64,9 @@ body {
   text-align: center;
   top: 37vh;
   font-family: "Gruppo", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   opacity: 1;
-  color: rgb(212, 200, 200);
+  color: rgb(214, 209, 209);
   font-size: 26px;
 }
 
