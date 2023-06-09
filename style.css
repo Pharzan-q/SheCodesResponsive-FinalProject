@@ -29,10 +29,11 @@ body {
 }
 .hero {
   min-height: 100vh;
+  margin-top: 48px;
   background-image: linear-gradient(
     0deg,
-    rgba(85, 56, 73, 0.503),
-    rgba(156, 151, 154, 0.354)
+    rgba(59, 32, 48, 0.719),
+    rgba(117, 110, 114, 0.621)
   );
   position: relative;
   overflow: hidden;
