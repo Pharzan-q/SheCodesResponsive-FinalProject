@@ -24,7 +24,8 @@ font-family: 'Yuji Syuku', serif;*/
 
 body {
   font-family: "Montserrat Alternates", sans-serif;
-  background-color: #3865dc;
+  background-color: #7a6b74;
+
   overflow-x: hidden;
 }
 .hero {
@@ -37,9 +38,8 @@ body {
   );
   position: relative;
   overflow: hidden;
-  margin-bottom: 100px;
 }
-#background-video {
+.background-video {
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -70,7 +70,58 @@ body {
   font-size: 26px;
 }
 
-.work-cover {
-  background-color: #3864dc5b;
-  width: 100vw;
+.works-thumbnail {
+  background-color: rgba(54, 54, 54, 0.945);
+  margin-bottom: 30px;
+  border: 1px solid rgba(9, 9, 9, 0.043);
+}
+.about-me-intro {
+}
+
+.intro-text {
+  background-image: linear-gradient(
+      0deg,
+      rgba(51, 35, 45, 0.618),
+      rgba(93, 78, 86, 0.555)
+    ),
+    url("/media/4.mp4_snapshot_00.05_[2023.06.10_17.12.29].png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-text p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(22, 21, 21);
+  margin: 60px auto;
+  max-width: 740px;
+  padding: 30px auto;
+}
+
+.profile-pic {
+  z-index: -1;
+}
+
+@media (max-width: 992px) {
+  .intro-text p {
+    font-size: 15px;
+    margin-top: 18%;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .intro-text p {
+    font-size: 14px;
+    margin: 30px;
+  }
+  .hero h1 {
+    top: 35vh;
+    font-size: 70px;
+    margin-right: 20px;
+  }
+  .hero h3 {
+    font-size: 22px;
+  }
 }
