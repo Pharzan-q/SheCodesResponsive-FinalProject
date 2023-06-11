@@ -20,7 +20,7 @@ linear-gradient(
       */
 
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "Yuji Syuku", serif;
   overflow-x: hidden;
   background-color: #f5efe7;
 }
@@ -71,24 +71,34 @@ body {
 }
 
 .about-me-intro {
-  margin: 120px auto;
+  margin: 120px auto 30px auto;
 }
 
 .intro-text {
 }
 .intro-text p {
-  font-size: 16px;
+  font-size: 24px;
   color: rgb(22, 21, 21);
-  margin: 90px auto;
+  margin: 60px auto;
+  padding-left: 10px;
+  border-left: 1px solid #213555;
+  font-weight: 400;
+  padding-bottom: 15px;
 }
-
+.intro-text p span {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 .service-container {
-  margin: 300px auto;
-  padding-top: 210px;
-  border-top: 1px solid #213555;
+  margin: 150px auto;
+  padding-top: 100px;
 }
 .service-container h2 {
   margin-bottom: 100px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .service-container .col {
@@ -97,26 +107,40 @@ body {
 
 .recognition {
   margin: 100px auto;
-  padding-top: 200px;
-  border-top: 1px solid #213555;
+  padding-top: 100px;
+
+  font-size: 20px;
 }
 
+.recognition h2 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+}
+.recognition p {
+  border-left: 1px solid #213555;
+}
 .works-thumbnail {
   padding-top: 140px;
   border-top: 1px solid #213555;
   margin-bottom: 30px;
 }
+.works-thumbnail h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 10px;
+}
 
 @media (max-width: 992px) {
   .intro-text p {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 30%;
     text-align: center;
   }
 }
 @media (max-width: 768px) {
   .intro-text p {
-    font-size: 15px;
+    font-size: 16px;
     margin: 30px;
   }
   .hero h1 {
