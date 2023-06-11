@@ -74,8 +74,6 @@ body {
   margin: 120px auto 30px auto;
 }
 
-.intro-text {
-}
 .intro-text p {
   font-size: 24px;
   color: rgb(22, 21, 21);
@@ -144,10 +142,11 @@ body {
     margin: 30px;
   }
   .hero h1 {
-    height: 15vh;
+    top: 15vh;
     font-size: 60px;
   }
   .hero h3 {
     font-size: 19px;
+    top: 15vh;
   }
 }
