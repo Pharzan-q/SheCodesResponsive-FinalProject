@@ -132,6 +132,11 @@ body {
   margin-left: 10px;
   margin-bottom: 50px;
 }
+.img-thumbnail {
+  padding: 0;
+  border-radius: none;
+  border: none;
+}
 a {
   font-size: 18px;
   font-weight: 900;
