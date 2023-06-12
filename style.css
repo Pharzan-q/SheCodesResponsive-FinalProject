@@ -4,57 +4,13 @@ font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yuji Syuku', serif;
-
-linear-gradient(
-      0deg,
-      rgba(85, 56, 73, 0.357),
-      rgba(210, 202, 208, 0.552)
-    ),
-    
-      2deg,
-      rgba(58, 105, 147, 0.484),
-      rgba(246, 202, 126, 0.739)
-      
-      
-       <div class="container">
-        <div class="row recognition">
-          <h2
-            class="col col-lg-4 col-xl-3"
-            data-aos="fade-up"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-          >
-            Recognition
-          </h2>
-          <div
-            class="col col-lg-8 col-xl-9"
-            data-aos="fade-left"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-once="false"
-          >
-            <p>
-              I'm proud to say that I have won three silver medals for my
-              innovative personal medical product designs, which have been
-              recognized in South Korea, Kuwait, and Switzerland.
-            </p>
-          </div>
-        </div>
-      </div>
-      
+   
       
       */
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Yuji Syuku", serif;
   background-color: #f5efe7;
-  overflow: hidden;
-  overflow-y: scroll;
 }
 
 .hero {
@@ -67,9 +23,10 @@ body {
     rgba(93, 78, 86, 0.432)
   );
   position: relative;
+  overflow: hidden;
 }
 .background-video {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   position: absolute;
   object-fit: cover;
@@ -171,7 +128,7 @@ body {
   border-radius: none;
   border: none;
 }
-a {
+a.go-to {
   font-size: 18px;
   font-weight: 900;
   color: #000000;
@@ -180,7 +137,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a.go-to:hover {
   font-size: 21px;
   font-weight: 800;
   color: #213555;
@@ -192,7 +149,7 @@ a:hover {
   top: 10vh;
   left: -2%;
 }
-.contact-btn {
+a.contact-btn {
   text-align: center;
   display: inline-block block;
   border: 1px solid #e7dfd4ef;
@@ -204,7 +161,7 @@ a:hover {
   font-family: "Yuji Syuku", serif;
 }
 
-.contact-btn:hover {
+a.contact-btn:hover {
   text-decoration: none;
   background-color: #1c2522eb;
   border: 1px solid #1c2522fb;
@@ -322,7 +279,7 @@ a:hover {
     overflow-x: hidden;
   }
   .intro-text p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 30px;
   }
   .hero-container {
@@ -348,15 +305,20 @@ a:hover {
     border-bottom: var(--bs-border-width) var(--bs-border-style)
       var(--bs-border-color) !important;
   }
-  a {
+  a.go-to {
     font-size: 16px;
   }
-  a:hover {
+  a.go-to:hover {
     font-size: 18px;
   }
   .contact-btn:hover {
     font-size: 18px;
+    text-decoration: none;
+    background-color: #1c2522eb;
+    border: 1px solid #1c2522fb;
+    color: #e7dfd4ef;
   }
+
   .recognition p {
     font-size: 20px;
   }
