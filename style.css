@@ -16,30 +16,60 @@ linear-gradient(
       rgba(246, 202, 126, 0.739)
       
       
+       <div class="container">
+        <div class="row recognition">
+          <h2
+            class="col col-lg-4 col-xl-3"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
+          >
+            Recognition
+          </h2>
+          <div
+            class="col col-lg-8 col-xl-9"
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="false"
+          >
+            <p>
+              I'm proud to say that I have won three silver medals for my
+              innovative personal medical product designs, which have been
+              recognized in South Korea, Kuwait, and Switzerland.
+            </p>
+          </div>
+        </div>
+      </div>
+      
       
       */
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Yuji Syuku", serif;
-  overflow-x: hidden;
   background-color: #f5efe7;
+  overflow: hidden;
+  overflow-y: scroll;
 }
-.hero-container {
-  padding-bottom: 150px;
-}
+
 .hero {
   height: 75vh;
   margin-top: 110px;
+  margin-bottom: 100px;
   background-image: linear-gradient(
     0deg,
     rgba(59, 31, 48, 0.558),
     rgba(93, 78, 86, 0.432)
   );
   position: relative;
-  overflow: hidden;
 }
 .background-video {
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   position: absolute;
   object-fit: cover;
@@ -74,10 +104,6 @@ body {
   font-weight: 500;
   margin-bottom: 200px;
   padding-top: 50px;
-}
-
-.about-me-intro {
-  margin: 120px auto 30px auto;
 }
 
 .intro-text p {
@@ -122,7 +148,6 @@ body {
 .recognition h2 {
   font-size: 30px;
   font-weight: 700;
-  text-align: left;
 }
 .recognition p {
   border-left: 1px solid #213555;
@@ -237,7 +262,10 @@ a:hover {
 
 @media (max-width: 992px) {
   body {
+    padding: 0;
+    margin: 0;
     text-align: center;
+    overflow-x: hidden;
   }
   .welcome {
     font-size: 35px;
@@ -287,6 +315,12 @@ a:hover {
   }
 }
 @media (max-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+  }
   .intro-text p {
     font-size: 18px;
     margin: 30px;
