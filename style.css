@@ -119,6 +119,7 @@ body {
 }
 .recognition p {
   border-left: 1px solid #213555;
+  font-size: 22px;
 }
 .works-thumbnail {
   padding-top: 100px;
@@ -198,6 +199,7 @@ a:hover {
   .recognition p {
     border: none;
     padding-bottom: 50px;
+    text-align: center;
   }
   .service-container {
     margin-top: 100px;
@@ -239,6 +241,6 @@ a:hover {
     font-size: 18px;
   }
   .recognition p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
