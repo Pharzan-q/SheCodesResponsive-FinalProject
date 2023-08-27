@@ -31,6 +31,15 @@ body {
 
   font-size: 20px;
 }
+.works-main-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.works-main-container h2 {
+  font-weight: 900;
+  border-bottom: 1px solid #28385297;
+  text-align: center;
+}
 .background-video {
   height: 100%;
   width: 100vw;
